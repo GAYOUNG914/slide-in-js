@@ -1,51 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>full-page</title>
-    <meta
-      name="viewport"
-      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
-    />
-    
-    <meta name="description" content="full-page" />
-    <link rel="stylesheet" href="./css/initial.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- <script src="./js/jquery.min.js"></script> -->
-    <!-- <script src="./js/common.js"></script> -->
-</head>
-<body>
-    <div class="wrap">
-        <div class="page"><p>page1</p></div>
-        <div class="page"><p>page2</p></div>
-        <div class="page"><p>page3</p></div>
-        <div class="page"><p>page4</p></div>
-    </div>
-    <ul>
-        <li><a href="#a" class="dot">1</a></li>
-        <li><a href="#a" class="dot">2</a></li>
-        <li><a href="#a" class="dot">3</a></li>
-        <li><a href="#a" class="dot">4</a></li>
-    </ul>
-    <a class="previous"><i class="fa-solid fa-circle-chevron-up"></i></a>
-    <a class="next"><i class="fa-solid fa-circle-chevron-down"></i></a>
-<!-- <div class="d">
-    <section class="slider">
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1629701690321-193c155015bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80">
-        </div>
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1651005668576-cc37076ad654?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80">
-        </div>
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1651010303993-4c48fcc16c94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80">
-        </div>
-        <a class="previous"><i class="fa-solid fa-circle-chevron-left"></i></a>
-        <a class="next"><i class="fa-solid fa-circle-chevron-right"></i></a>
-    </section>
-</div> -->
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/672057141c.js" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="slider-container simple-list" id="slider">
+            <li class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/01/22/16/54/book-6957870_960_720.jpg" alt="">
+            </li>
+            <li class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/02/23/05/10/tiramisu-7030032_960_720.jpg" alt="">
+            </li>
+            <li class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/03/02/18/07/russian-borzoi-7043714_960_720.jpg" alt="">
+            </li>
+            <li class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/03/04/20/53/city-7048002_960_720.jpg" alt="">
+            </li>
+        </ul>
+
+        <a href="#" id="prev"><i class="fa-solid fa-circle-arrow-left"></i></a>
+        <a href="#" id="next"><i class="fa-solid fa-circle-arrow-right"></i></a>
+
+    </div>
+
+    
+    <script src="./script.js"></script>
 </body>
+
 </html>
